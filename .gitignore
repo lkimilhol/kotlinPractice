@@ -33,13 +33,15 @@ bin/
 /nbbuild/
 /dist/
 /nbdist/
-/.nb-gradle/
+/.nb-gradle/1
 
 ### VS Code ###
 .vscode/
 
 ### Mac OS ###
 .DS_Store
-/.gradle/
 /.idea/
 /.kotlintest/
+/.kotlintest/spec_failures
+/build/
+/gradle/

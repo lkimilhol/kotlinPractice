@@ -12,6 +12,7 @@ repositories {
 }
 
 dependencies {
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0")
     testImplementation("io.kotlintest:kotlintest-runner-junit5:3.3.0")
     testImplementation(kotlin("test"))
 }
